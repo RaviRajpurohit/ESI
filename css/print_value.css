@@ -1,0 +1,50 @@
+#search_div{
+	position:static;
+	border:2px solid black;
+	padding:2%;
+	padding-top:0px;
+}
+.sea rch{
+	border:1px solid black;
+	padding:2%;
+}
+pre{
+	font-weight:bold;
+	font-family:arial b;/*Times New Roman;*/
+	font-size:large;
+}
+input, select{
+	padding:2px;
+	margin:1%;
+}
+table {
+    width:100%;
+}
+table, th, td {
+	border-color: #0056ff;
+	box-shadow: 0px 0px 8px 3px black;
+    font-weight:bold;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table tr:nth-child(even) {
+    background-color: #eee;
+}
+table tr:nth-child(odd) {
+    background-color:#fff;
+}
+table th {
+    background-color: black;
+    color: white;
+}
+.table{
+	border:none;
+	width:100%;
+}
+#table{
+	max-height:350px;
+	border: 3px ridge #585454;
+	overflow:scroll;
+}
