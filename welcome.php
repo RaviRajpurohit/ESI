@@ -22,11 +22,14 @@
 			</div>
 			<div id="top2" >		
 				<button type="submit" onclick="window.location = 'welcome.php'" class="left">HOME</button>|
-				<button type="submit" onclick="return issued_page()" class="left">ISSUED DETAIL</button>|
 				<?php
 					if ($_SESSION['department'] == "Main Store")
 					{
-						echo "<button type=\"submit\" onclick=\"return recieved_page()\" class=\"left\">RECIVED DETAIL</button>|";
+						echo "<button type=\"submit\" onclick=\"return issued_page()\" class=\"left\">ISSUED DETAIL</button>|
+						<button type=\"submit\" onclick=\"return recieved_page()\" class=\"left\">RECIVED DETAIL</button>|";
+					}
+					else{
+						echo "<button type=\"submit\" onclick=\"return issued_other()\" class=\"left\">ISSUED DETAIL</button>|";
 					}
 				?>
 				<button type="submit" onclick="return print_values()" class="left">PRINT</button>|
