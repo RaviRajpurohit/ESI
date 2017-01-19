@@ -114,7 +114,7 @@ CREATE TABLE IF NOT EXISTS `users` (
   `password` varchar(100) NOT NULL,
   `department` varchar(50) NOT NULL,
   `contactPerson` varchar(50) NOT NULL,
-  `mobileNo` int(11) NOT NULL,
+  `mobileNo` int(25) NOT NULL,
   PRIMARY KEY (`username`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
