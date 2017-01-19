@@ -15,7 +15,7 @@
 	<body>
 		<div id="top">
 			<div id="top1" >
-				<b>ESI Dipensaries</b>
+				<b>ESI Dispensary</b>
 				<a href = "connection/logout.php">
 					<img align="right" style=""id ="logout" alter="logout" src="img/logout.png">
 				</a>
